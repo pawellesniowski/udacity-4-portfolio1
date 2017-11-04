@@ -1,0 +1,27 @@
+.to-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.to-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.to-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
